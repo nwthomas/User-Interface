@@ -173,11 +173,14 @@ nav {
 
 nav a {
   text-decoration: none;
-  /* color: rgb(176, 177, 178); */
   color: black;
   margin: 35px 31px 0 31px;
   font-size: 14px;
   display: inline-block;
+}
+
+nav a:hover {
+  color: rgb(176, 177, 178);
 }
 
 nav a:first-child {
@@ -196,7 +199,7 @@ img {
 
 .website-wrapper {
   width: 880px;
-  margin: 100px auto 0 auto;
+  margin: 130px auto 0 auto;
   z-index: 1;
 }
 
